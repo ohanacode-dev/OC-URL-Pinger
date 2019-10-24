@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ohanacodedev.ocurlpinger.MainActivity">
+    <item
+        android:id="@+id/activate"
+        android:checkable="true"
+        android:orderInCategory="100"
+        android:title="@string/action_activate"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/set_frequency"
+        android:title="@string/action_set_frequency" />
+</menu>
